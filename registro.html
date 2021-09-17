@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
 </head>
 <body>
-    
+    <form id="form-registro">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+        </div>
+
+        <div>
+            <label for="genero">Genero</label>
+        </div>
+        <div>
+            <input type="radio" name="rdoGenero" id="masculino" value="1" checked>
+            <label for="masculino">M</label>
+        </div>
+        <div>
+            <input type="radio" name="rdoGenero" id="femenino" value="2">
+            <label for="femenino">F</label>
+        </div>
+
+        <div>
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono">
+        </div>
+
+        <div>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion">
+        </div>
+
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo">
+        </div>
+
+        <div>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena">
+        </div>
+
+        <div>
+            <input type="submit" id="btn-submit-form" value="Registrar">
+        </div>
+    </form>
 </body>
 </html>
