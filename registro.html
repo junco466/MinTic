@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-    
+    <form id="form-registro">
+        <div id="registro">
+            Registro
+        </div>
+        <div class="text">
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" id="nombre" class="textBox">
+        </div>
+
+        <div class="text">
+            <label for="genero">Genero</label>
+        </div>
+        <div class="text">
+            <input type="radio" name="rdoGenero" id="masculino" value="1" checked>
+            <label for="masculino">M</label>
+            <input type="radio" name="rdoGenero" id="femenino" value="2">
+            <label for="femenino">F</label>
+        </div>
+
+        <div class="text">
+            <label for="telefono">Teléfono</label>
+            <br>
+            <input type="text"class="textBox" id="telefono">
+        </div>
+
+        <div class="text">
+            <label for="direccion">Dirección</label>
+            <br>
+            <input type="text"class="textBox" id="direccion">
+        </div>
+
+        <div class="text">
+            <label for="correo">Correo</label>
+            <br>
+            <input type="email" class="textBox"id="correo">
+        </div>
+
+        <div class="text">
+            <label for="contrasena">Contraseña</label>
+            <br>
+            <input type="password"class="textBox" id="contrasena">
+        </div>
+
+        <div class="btn text">
+            <input type="submit" id="btn-submit-form" value="Registrar">
+        </div>
+    </form>
 </body>
 </html>

@@ -14,7 +14,47 @@ html {
     padding: 0;
   }
 
-
+#form-registro {
+  width: 25rem;
+  height: 30rem;
+  background-color: beige;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+#registro {
+  background-color: #80b918;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px;
+  font-size: 1.3rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.textBox {
+  background-color: rgba(128, 128, 128, 0.466);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+input:focus {
+  background-color: rgb(95, 138, 177);
+}
+.text {
+  margin: 5px;
+}
+#btn-submit-form {
+  background-color: #80b918;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.2rem;
+}
+.btn {
+  text-align: center;
+  margin: 2rem;
+}
 
 header{
     width: 100%;
