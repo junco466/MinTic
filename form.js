@@ -52,11 +52,11 @@ function checkNombre(nombre) {
         return false;
     }
     }
-
+/*
     module.exports = {
         checkNombre,
         checkTelefono,
         checkDir,
         checkCorreo,
         checkContrasena,
-    }
+    }*/
