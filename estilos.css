@@ -39,7 +39,7 @@ html {
   border-radius: 0.5rem;
 }
 input:focus {
-  background-color: rgb(95, 138, 177);
+  background-color: rgb(165, 165, 165);
 }
 .text {
   margin: 5px;
