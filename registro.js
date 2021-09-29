@@ -26,6 +26,25 @@ function agregarRegistro(){
     };
 
     datos.push(registro);
-    console.log(datos);
+    //console.log(datos);
+    ordenarArreglo(datos);
+}
+
+function ordenarArreglo(datos){
+    //console.log(datos);
+    //document.getElementById("mostrarDatos").innerHTML = datos;
+
+    let datos_ordenados = sort_by_key(datos, 'nombre');
+    console.log(datos_ordenados);
+    
+
+}
+
+function sort_by_key(array, key){
+
+    return array.sort(function(a, b){
+        var x = a[key]; var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
 }
 
