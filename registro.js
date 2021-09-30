@@ -77,13 +77,30 @@ function agregarRegistro(){
     };
 
     datos.push(registro);
+
     console.log(datos);
+    //ordenarArreglo(datos);
     // prueba de la funcion filtroCorreo a traves de la consola
     // let resultadoss = filtrarCorreo(datos);
 }
+
+function ordenarArreglo(datos){
+    //console.log(datos);
+    //document.getElementById("mostrarDatos").innerHTML = datos;
+
+    let datos_ordenados = datos.sort(function(a, b){
+        var x = a['nombre']; var y = b['nombre'];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+          
+    console.log(datos_ordenados);
+    return datos_ordenados;
+}
+
 module.exports={
     filtrarCorreo,
-    agregarRegistro
+    agregarRegistro,
+    ordenarArreglo
 }
 
 
