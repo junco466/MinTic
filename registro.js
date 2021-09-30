@@ -102,5 +102,3 @@ module.exports={
     agregarRegistro,
     ordenarArreglo
 }
-
-
