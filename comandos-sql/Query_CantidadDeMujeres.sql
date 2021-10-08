@@ -1,0 +1,1 @@
+SELECT COUNT(genero) FROM `Usuarios` WHERE genero = 'F';
