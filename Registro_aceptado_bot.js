@@ -29,7 +29,7 @@ function agregarRegistro(){
     //console.log('inicial');
     registros.push(registro);
     console.log(registros);
-    console.log('entre a la funcion agragarRegistro()')
+    //console.log('entre a la funcion agragarRegistro()')
     //let ordenado = ordenarArreglo(arreglo);
     //let resultadoss = filtrarCorreo(arreglo);
     // prueba de la funcion filtroCorreo a traves de la consola
@@ -45,7 +45,7 @@ function ordenarArreglo(){
     });
 
     console.log(datos_ordenados);
-    console.log('entre a la funcion ordenarArreglo()')
+    //console.log('entre a la funcion ordenarArreglo()')
     return datos_ordenados;
 }
 
